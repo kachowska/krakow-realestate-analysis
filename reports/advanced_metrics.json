@@ -1,0 +1,35 @@
+{
+  "rows_total": 7131,
+  "rows_strong_subset": 1843,
+  "targets": {
+    "log_price": {
+      "r2_holdout": 0.4414434989099034,
+      "mae_holdout": 0.38559444696858053,
+      "r2_cv_mean": 0.4664490215367579,
+      "top_importances": []
+    },
+    "log_ppm2": {
+      "r2_holdout": 0.4222630088651961,
+      "mae_holdout": 0.38925072576087766,
+      "r2_cv_mean": 0.4881842238714868,
+      "top_importances": []
+    }
+  },
+  "features_num": [
+    "size_m2",
+    "building_age",
+    "distance_to_center_km",
+    "latitude",
+    "longitude",
+    "floor_ratio",
+    "amenities_count"
+  ],
+  "features_cat": [
+    "district",
+    "property_type",
+    "market",
+    "building_material",
+    "heating",
+    "condition"
+  ]
+}

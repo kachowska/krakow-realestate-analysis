@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+
+# Models
+models/*.pkl
+models/metrics.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
