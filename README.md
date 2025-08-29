@@ -1,7 +1,7 @@
 # Real Estate Price Analysis — Kraków Property Trends
 
 **Period:** August 2025 – Present  
-**Author:** Eкатерина Пуховская 
+**Author:** Eкатерина Пуховская
 **Stack:** Python (pandas, scikit-learn, matplotlib), Google Looker Studio
 
 ## Summary
