@@ -1,18 +1,18 @@
 # Real Estate Price Analysis — Kraków Property Trends
 
 **Period:** August 2025 – Present  
-**Author:** (fill in your name)  
+**Author:** Eкатерина Пуховская 
 **Stack:** Python (pandas, scikit-learn, matplotlib), Google Looker Studio
 
 ## Summary
 A reproducible data project analyzing apartment prices in Kraków. It includes data cleaning, feature engineering, modeling, and interactive dashboards.
 
 ### What this project delivers
-- ✅ **Dataset:** 1,200+ Kraków property records (CSV) with `price`, `district`, `size_m2`, `floor`, `year_built`, `amenities`, and more.  
-- ✅ **Data wrangling:** handled 100+ missing values, removed duplicates/outliers, standardized 5+ categorical variables.  
-- ✅ **Feature engineering (4+):** `price_per_m2`, `property_type`, `distance_to_center_km`, `building_age`, optional `floor_ratio`, `amenities_count`.  
-- ✅ **Model:** multiple linear regression (with regularization variants) trained via scikit-learn Pipeline; cross-validated; coefficients interpreted to find key drivers.  
-- ✅ **Dashboard:** Looker Studio report to compare market behavior by district and property type; Python plots for distributions and trends.  
+-  **Dataset:** 1,200+ Kraków property records (CSV) with `price`, `district`, `size_m2`, `floor`, `year_built`, `amenities`, and more.  
+-  **Data wrangling:** handled 100+ missing values, removed duplicates/outliers, standardized 5+ categorical variables.  
+-  **Feature engineering (4+):** `price_per_m2`, `property_type`, `distance_to_center_km`, `building_age`, optional `floor_ratio`, `amenities_count`.  
+-  **Model:** multiple linear regression (with regularization variants) trained via scikit-learn Pipeline; cross-validated; coefficients interpreted to find key drivers.  
+-  **Dashboard:** Looker Studio report to compare market behavior by district and property type; Python plots for distributions and trends.  
 
 > **Note:** Exact metrics (e.g., R²≈0.78) depend on the final dataset. The pipeline is set up to make this target realistic with log-transformed price, regularization and robust preprocessing.
 
@@ -20,19 +20,19 @@ A reproducible data project analyzing apartment prices in Kraków. It includes d
 ```
 Krakow_RealEstate_Analysis/
 ├─ data/
-│  ├─ raw/                # drop raw CSVs here (e.g., Kaggle exports)
-│  └─ processed/          # cleaned, model-ready CSVs (output of src/data_prep.py)
+│  ├─ raw/               
+│  └─ processed/         
 ├─ docs/
-│  └─ looker_setup.md     # how to publish the dashboard
-├─ models/                # trained models (*.pkl) saved by src/train_model.py
+│  └─ looker_setup.md    
+├─ models/               
 ├─ notebooks/
 │  └─ 01_eda_template.ipynb
 ├─ reports/
-│  └─ figures/            # charts saved here
+│  └─ figures/           
 ├─ src/
-│  ├─ data_prep.py        # cleaning + standardization + saving processed CSV
+│  ├─ data_prep.py       
 │  ├─ feature_engineering.py
-│  └─ train_model.py      # training + evaluation + model export
+│  └─ train_model.py     
 └─ requirements.txt
 ```
 
