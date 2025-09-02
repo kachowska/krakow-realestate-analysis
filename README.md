@@ -58,13 +58,6 @@ Krakow_RealEstate_Analysis/
 - Public portals for market context (optional): RynekPierwotny BIG DATA, Properstar/Numbeo (for sanity checks).  
 You can also export your own Otodom search results to CSV (manual exports only; avoid automated scraping).
 
-## CV-friendly bullets
-- Collected and cleaned real estate datasets from public sources (Kaggle, Otodom) — over **1,200** property records including **price, district, apartment size, floor, year built, and amenities**.
-- Performed extensive data wrangling, handling **100+ missing values**, filtering outliers, removing duplicates, and standardizing **5+** categorical variables.
-- Engineered **4** new features (e.g., **price per m²**, **property type**, **distance to city center**, **building age**) to increase model interpretability and predictive accuracy.
-- Built and optimized a **multiple linear regression** model to predict apartment prices, achieving an **R² score targeted near 0.78** and highlighting key pricing drivers (e.g., **size, location, building age**).
-- Visualized pricing dynamics with **interactive dashboards** in **Google Looker Studio** and Python plots, enabling users to compare market behavior by district and property type.
-
 ## License
 MIT (or choose another).
 
